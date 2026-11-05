@@ -1,0 +1,1 @@
+const roles=['AI','building things','automation'];let roleIndex=0;document.getElementById('role').addEventListener('click',function(){roleIndex=(roleIndex+1)%roles.length;this.querySelector('em').textContent=roles[roleIndex]});
